@@ -1,6 +1,9 @@
 # Add  code here!
 def prime?(integer)
   2.upto(Math.sqrt(integer)) do |x|
-    integer % x == 0? false:true
+    if integer % x == 0
+      return false
+    else  
+      true
   end
 end 
