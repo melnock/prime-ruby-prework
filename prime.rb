@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(integer)
-  2..Math.sqrt(integer) do |x|
+  (2..Math.sqrt(integer)) do |x|
     if integer % x == 0
       return false
     else  
